@@ -13,6 +13,5 @@ fn main() {
         i += 1;
     }
 
-    println!("{}", val[0]);
-    println!("{}", val[1]);
+    println!("[{}, {}]", val[0], val[1]);
 }
